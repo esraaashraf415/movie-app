@@ -1,0 +1,18 @@
+.inner-card-controls{display: flex;align-items: center;
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+background-color: rgba(0, 0, 0, .8);
+border-radius: 5px;
+padding: 3px;
+opacity: 1;
+transition: all .3s ease;}
+.control-btn{color: #fefefe;
+background-color: transparent;
+border: none;
+transition: all;
+padding: 5px;
+margin: 0;}
+.control-btn:hover{color:var(--secondary)
+;cursor: pointer;}

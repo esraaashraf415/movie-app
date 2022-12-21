@@ -1,0 +1,15 @@
+.header{background-color: var(--primary);
+padding: 10px 0;}
+.header .container{display: flex;
+justify-content: space-between;
+align-items: center;}
+.header a{color:var(--white);
+font-size:1.25rem;
+text-decoration: none;
+transition: all;}
+.header a:hover{opacity: .7;
+}
+.header .logo a{font-weight: 700;
+font-size: 1.5rem;}
+.list-unstyled li{display: inline-block;
+margin-right: 30px;}
